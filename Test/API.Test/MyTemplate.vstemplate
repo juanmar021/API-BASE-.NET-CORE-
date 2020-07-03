@@ -1,0 +1,22 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SGS.API.Test</Name>
+    <Description>&lt;No hay ninguna descripción disponible&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SGS.API.Test</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SGS.API.Test.csproj" File="SGS.API.Test.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="DefaultControllerTest.cs">DefaultControllerTest.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SGS.API.Test.csproj.vspscc">SGS.API.Test.csproj.vspscc</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

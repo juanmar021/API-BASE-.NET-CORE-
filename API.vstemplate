@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
+    <TemplateData>  
+        <Name>API Rest Template</Name>  
+        <Description>Plantilla para la Creacion de servicios Rest En .Net core</Description>  
+        <ProjectType>CSharp</ProjectType>  
+		 <SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>API.Template</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>__TemplateIcon.png</Icon>
+		<PreviewImage>__PreviewImage.png</PreviewImage>
+    </TemplateData>  
+    <TemplateContent>  
+        <ProjectCollection>  
+		    
+            <ProjectTemplateLink ProjectName="Data">  
+                Data\DataContext\MyTemplate.vstemplate  
+            </ProjectTemplateLink>  
+			
+			
+            <ProjectTemplateLink ProjectName="Model">  
+                Model\SGS.Models\MyTemplate.vstemplate  
+            </ProjectTemplateLink>  
+			  
+			<ProjectTemplateLink ProjectName="Services">  
+                Services\Service\MyTemplate.vstemplate  
+            </ProjectTemplateLink> 
+			 			
+			<ProjectTemplateLink ProjectName="API.MCV">  
+                API.Base\MyTemplate.vstemplate  
+            </ProjectTemplateLink> 
+		
+			<ProjectTemplateLink ProjectName="Test">  
+                Test\API.Test\MyTemplate.vstemplate  
+            </ProjectTemplateLink> 
+			
+        </ProjectCollection>  
+    </TemplateContent>  
+</VSTemplate>  
+

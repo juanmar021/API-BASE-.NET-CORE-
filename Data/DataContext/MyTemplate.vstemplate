@@ -1,0 +1,28 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DataContext</Name>
+    <Description>&lt;No hay ninguna descripción disponible&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DataContext</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DataContext.csproj" File="DataContext.csproj" ReplaceParameters="true">
+      <Folder Name="Context" TargetFolderName="Context">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DBContext.cs">DBContext.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Model" TargetFolderName="Model">
+        <ProjectItem ReplaceParameters="true" TargetFileName="File.cs">File.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FileType.cs">FileType.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DataContext.csproj.vspscc">DataContext.csproj.vspscc</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
