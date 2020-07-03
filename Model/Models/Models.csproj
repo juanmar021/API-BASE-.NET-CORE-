@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="4.5.3.1" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.20" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.20" />
   </ItemGroup>
